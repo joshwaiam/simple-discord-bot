@@ -40,6 +40,7 @@ client.on('interactionCreate', async (interaction: Interaction) => {
       await interaction.reply(
         `Damn bro, you working with ${poorMoon} inch dong!`
       )
+      return
     }
     await interaction.reply(
       `Damn bro, you working with ${randomNumber(1, 12)} inch dong!`
