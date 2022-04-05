@@ -1,0 +1,30 @@
+{
+  "name": "simple-discord-bot",
+  "version": "1.0.0",
+  "description": "Doing a quick and simple Discord bot for my Twitch stream audience!",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshwaiam/simple-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshwaiam/simple-discord-bot/issues"
+  },
+  "homepage": "https://github.com/joshwaiam/simple-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
